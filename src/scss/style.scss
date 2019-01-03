@@ -1,0 +1,16 @@
+$bg:linear-gradient(44deg, #1301FE 0, #4DBEFF 100%);
+
+body{
+    background: $bg;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: 900;
+    font-size: 4em;
+    font-variant: small-caps;
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0 , 0.4);
+}
